@@ -1,0 +1,15 @@
+{
+  "name": "braainsio_api",
+  "version": "0.0.1",
+  "description": "braains.io api",
+  "start": "node server.js",
+  "dependencies": {
+    "body-parser": "~1.0.2",
+    "express": "~4.14.0",
+    "applicationinsights": "~0.15.19",
+    "serve-favicon":"~2.3.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
