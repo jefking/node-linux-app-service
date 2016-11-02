@@ -3,6 +3,8 @@ var bodyParser = require("body-parser");
 var favicon = require('serve-favicon');
 var appInsights = require("applicationinsights");
 
+appInsights.setup("90613a9e-38d3-4492-9062-73e9c19595d0").start();
+
 var app = express();
 app.use(favicon(__dirname + '/favicon.ico'));
 app.use(favicon(__dirname + '/fav.ico'));
