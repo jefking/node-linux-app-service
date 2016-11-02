@@ -1,7 +1,7 @@
 {
   "name": "braainsio_api",
   "version": "0.0.1",
-  "description": "braains.io api",
+  "description": "vanilla",
   "start": "node server.js",
   "dependencies": {
     "body-parser": "~1.0.2",
