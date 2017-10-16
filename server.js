@@ -11,7 +11,8 @@ app.use(favicon(__dirname + '/fav.ico'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-var expressPort = process.env.PORT || 8080;
+//var expressPort = process.env.PORT || 8080;
+var expressPort = 80 || 8080;
 
 var router = express.Router();
 
